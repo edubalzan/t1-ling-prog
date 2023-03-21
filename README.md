@@ -5,7 +5,8 @@
 ## Instruções
 
 - Para executar esse código você deve instalar os seguintes programas:
-- Lex/Flex 2.5.4 ou superior
+  - Lex/Flex 2.5.4 ou superior
+  - MinGW (Windows) [Tutorial](https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/)
 
 ### Instalar Lex/Flex
 
