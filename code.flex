@@ -15,11 +15,11 @@ Rational={Integer}"/"{Digit}{Digit}|({Integer}){Digit}"/"{Digit}{Digit}*
 NUM={Integer}|{Rational}|{Float}
 BOOL=true|false
 CHAR={Letter}|{Symbol}|{Digit}
-KEY=else|if|int|return|void|while
+KEY=else|if|int|return|void|while|main
 
 %%
 
-{NUM} {System.out.println("(" + (yyline + 1) + ", NUM, " + yytext() + ")");}
-{BOOL} {System.out.println("(" + (yyline + 1) + ", BOOL, " + yytext() + ")");}
-{CHAR} {System.out.println("(" + (yyline + 1) + ", CHAR, " + yytext() + ")");}
-{KEY} {System.out.println("(" + (yyline + 1) + ", KEY, " + yytext() + ")");}
+{NUM} {System.out.print("(" + (yyline + 1) + ", NUM, \"" + yytext() + "\")\n");}
+{BOOL} {System.out.print("(" + (yyline + 1) + ", BOOL, \"" + yytext() + "\")\n");}
+{CHAR} {System.out.print("(" + (yyline + 1) + ", CHAR, \"" + yytext() + "\")\n");}
+{KEY} {System.out.print("(" + (yyline + 1) + ", KEY, \"" + yytext() + "\")\n");}
