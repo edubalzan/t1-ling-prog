@@ -5,18 +5,18 @@
 ## Instruções
 
 - Para executar esse código você deve instalar os seguintes programas:
-  - Lex/Flex 2.5.4 ou superior
-  - MinGW (Windows) [Tutorial](https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/)
+  - JFlex 1.9.1 ou superior
+  - JDK 17 ou superior
 
-### Instalar Lex/Flex
+### Instalar JFlex
 
-- Windows - [Flex_2.5.4](http://gnuwin32.sourceforge.net/downlinks/flex.php)
-- MacOS - `brew install flex`
+- Windows - [JFlex_1.9.1](https://github.com/jflex-de/jflex/releases/download/v1.9.1/jflex-1.9.1.tar.gz)
+- MacOS - `brew install jflex`
 - Linux (Ubuntu) -
-    - `sudo apt-get update` <br /> `sudo apt-get install flex`
+    - `sudo apt-get update` <br /> `sudo apt-get install jflex`
 
 ### Executar e compilar
 
-- `lex [nome_do_arquivo].l`
-- `g++ lex.yy.c -ll`
-- `./a.out`
+- `jflex code.flex`
+- `javac Code.java`
+- `java Code.java input.txt`
