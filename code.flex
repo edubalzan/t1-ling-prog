@@ -15,7 +15,7 @@ Rational={Integer}"/"{Digit}{Digit}|({Integer}){Digit}"/"{Digit}{Digit}*
 NUM={Integer}|{Rational}|{Float}
 BOOL=true|false
 CHAR={Letter}|{Symbol}|{Digit}
-KEY=else|if|int|return|void|while|main
+KEY=else|if|int|return|void|while|main|for
 
 %%
 
