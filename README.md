@@ -1,6 +1,7 @@
 # T1 - LING PROG
 
 - Trabalho 1 da disciplina de Linguagens de programação - 2023/1.
+- Integrantes: Eduardo Felber Eichner, Eduardo Juchem Balzan, Leonardo Lersch Forner e Tomás Bringhenti Onofrio.
 
 ## Instruções
 
